@@ -1,0 +1,13 @@
+termcapinfo xterm* ti@:te@
+
+defscrollback 10240
+
+# Don't display the copyright page
+startup_message off
+
+
+# Default windows setting
+screen -t baks	0	# for backgroud programs:
+       	  		# nutstore, jupyter, virtualbox, etc.
+screen -t d   4	ssh d
+screen -t loc 1
