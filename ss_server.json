@@ -1,0 +1,8 @@
+{
+    "server": "0.0.0.0",
+    "server_port": 8567,
+    "password": "YourPasswd",
+    "method": "aes-256-cfb",
+    "fast_open":false,
+    "workers": 1
+}

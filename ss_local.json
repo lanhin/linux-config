@@ -1,0 +1,9 @@
+{
+    "server": "127.0.0.1",
+    "server_port": 8567,
+    "local_address": "114.2xx.xxx.xxx",
+    "local_port": 20080,
+    "password": "YourPasswd",
+    "method": "aes-256-cfb",
+    "fast_open":false
+}
