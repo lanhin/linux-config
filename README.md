@@ -16,3 +16,15 @@ For client, modify local_address and password in `ss_local.json` and run:
 ```bash
 python shadowsocks/local.py -c ss_local.json
 ```
+
+## jupyter
+Prepare your `mycert.pem` and `mycert.key` files and then copy the config file to proper location:
+
+```bash
+cp jupyter_notebook_config.py ~/.jupyter/
+```
+
+Then start your jupyter:
+```bash
+jupyter notebook
+```
